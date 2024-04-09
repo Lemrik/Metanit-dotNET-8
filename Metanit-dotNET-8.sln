@@ -5,7 +5,11 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Переменные и константы", "Переменные и константы\Переменные и константы.csproj", "{73DDAB2E-4A46-4661-AEAA-B30DFB164032}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Переменные и константы", "Переменные и константы", "{6A040EB1-08E3-47EC-A833-DCC327DBE05B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Переменные и константы", "2.1 Переменные и константы", "{6A040EB1-08E3-47EC-A833-DCC327DBE05B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Типы данных", "2.2 Типы данных", "{16624C8B-AFEA-4655-A016-271CF068AA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Типы данных", "Типы данных\Типы данных.csproj", "{0D0E90CE-134E-4A2E-9D65-38CC60552AD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{73DDAB2E-4A46-4661-AEAA-B30DFB164032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73DDAB2E-4A46-4661-AEAA-B30DFB164032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73DDAB2E-4A46-4661-AEAA-B30DFB164032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0E90CE-134E-4A2E-9D65-38CC60552AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0E90CE-134E-4A2E-9D65-38CC60552AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0E90CE-134E-4A2E-9D65-38CC60552AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0E90CE-134E-4A2E-9D65-38CC60552AD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{73DDAB2E-4A46-4661-AEAA-B30DFB164032} = {6A040EB1-08E3-47EC-A833-DCC327DBE05B}
+		{0D0E90CE-134E-4A2E-9D65-38CC60552AD4} = {16624C8B-AFEA-4655-A016-271CF068AA58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
