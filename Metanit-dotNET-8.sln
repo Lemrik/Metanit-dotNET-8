@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Переменные и константы", "Переменные и константы\Переменные и константы.csproj", "{73DDAB2E-4A46-4661-AEAA-B30DFB164032}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Переменные и константы", "Переменные и константы\Переменные и константы.csproj", "{73DDAB2E-4A46-4661-AEAA-B30DFB164032}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Переменные и константы", "2.1 Переменные и константы", "{6A040EB1-08E3-47EC-A833-DCC327DBE05B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Типы данных", "2.2 Типы данных", "{16624C8B-AFEA-4655-A016-271CF068AA58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Типы данных", "Типы данных\Типы данных.csproj", "{0D0E90CE-134E-4A2E-9D65-38CC60552AD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Типы данных", "Типы данных\Типы данных.csproj", "{0D0E90CE-134E-4A2E-9D65-38CC60552AD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Глава 2. Основы программирования на C#", "Глава 2. Основы программирования на C#", "{76D80779-D2A8-455A-BD16-B40D1AF79862}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3 Арифметические операции", "2.3 Арифметические операции", "{445A151F-E86C-4AD6-A6FC-534432B1AE1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Арифметические операции", "Арифметические операции\Арифметические операции.csproj", "{DA4F08DD-0E13-4795-86EA-1079E0A54067}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,13 +31,21 @@ Global
 		{0D0E90CE-134E-4A2E-9D65-38CC60552AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D0E90CE-134E-4A2E-9D65-38CC60552AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D0E90CE-134E-4A2E-9D65-38CC60552AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4F08DD-0E13-4795-86EA-1079E0A54067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4F08DD-0E13-4795-86EA-1079E0A54067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4F08DD-0E13-4795-86EA-1079E0A54067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4F08DD-0E13-4795-86EA-1079E0A54067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{73DDAB2E-4A46-4661-AEAA-B30DFB164032} = {6A040EB1-08E3-47EC-A833-DCC327DBE05B}
+		{6A040EB1-08E3-47EC-A833-DCC327DBE05B} = {76D80779-D2A8-455A-BD16-B40D1AF79862}
+		{16624C8B-AFEA-4655-A016-271CF068AA58} = {76D80779-D2A8-455A-BD16-B40D1AF79862}
 		{0D0E90CE-134E-4A2E-9D65-38CC60552AD4} = {16624C8B-AFEA-4655-A016-271CF068AA58}
+		{445A151F-E86C-4AD6-A6FC-534432B1AE1C} = {76D80779-D2A8-455A-BD16-B40D1AF79862}
+		{DA4F08DD-0E13-4795-86EA-1079E0A54067} = {445A151F-E86C-4AD6-A6FC-534432B1AE1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
