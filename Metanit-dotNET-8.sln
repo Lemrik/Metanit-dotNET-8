@@ -33,11 +33,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Циклы while и do-w
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Цикл foreach", "2. Цикл foreach", "{D8A9AA0B-F52D-400C-951F-9CFF87CD189A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Цикл for", "Цикл for\Цикл for.csproj", "{4D0CB9E0-A383-4F21-B736-0B62BC3F91C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Цикл for", "Цикл for\Цикл for.csproj", "{4D0CB9E0-A383-4F21-B736-0B62BC3F91C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Цикл foreach", "Цикл foreach\Цикл foreach.csproj", "{FF5EC3BD-A062-460B-9B1D-82048395A296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Цикл foreach", "Цикл foreach\Цикл foreach.csproj", "{FF5EC3BD-A062-460B-9B1D-82048395A296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Циклы while и do-while", "Циклы while и do-while\Циклы while и do-while.csproj", "{17DC8BCC-B967-4920-9A29-F6EE9DE602F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Циклы while и do-while", "Циклы while и do-while\Циклы while и do-while.csproj", "{17DC8BCC-B967-4920-9A29-F6EE9DE602F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. continue и break и вложенные циклы", "4. continue и break и вложенные циклы", "{7B6C14FB-535E-4381-B0D9-E3F39689F1B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "continue и break и вложенные циклы", "continue и break и вложенные циклы\continue и break и вложенные циклы.csproj", "{FC7F9FD9-BE92-4F5D-930C-0268DD31FF7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +81,10 @@ Global
 		{17DC8BCC-B967-4920-9A29-F6EE9DE602F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17DC8BCC-B967-4920-9A29-F6EE9DE602F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17DC8BCC-B967-4920-9A29-F6EE9DE602F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7F9FD9-BE92-4F5D-930C-0268DD31FF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7F9FD9-BE92-4F5D-930C-0268DD31FF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7F9FD9-BE92-4F5D-930C-0268DD31FF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7F9FD9-BE92-4F5D-930C-0268DD31FF7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +107,8 @@ Global
 		{4D0CB9E0-A383-4F21-B736-0B62BC3F91C9} = {B7583AAD-1ED4-45E9-BDF7-9F8B403835FD}
 		{FF5EC3BD-A062-460B-9B1D-82048395A296} = {D8A9AA0B-F52D-400C-951F-9CFF87CD189A}
 		{17DC8BCC-B967-4920-9A29-F6EE9DE602F2} = {2F88E8E6-FAC7-4084-8495-D348264071A5}
+		{7B6C14FB-535E-4381-B0D9-E3F39689F1B7} = {477E833C-809B-455B-88E7-8310D7730896}
+		{FC7F9FD9-BE92-4F5D-930C-0268DD31FF7F} = {7B6C14FB-535E-4381-B0D9-E3F39689F1B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
