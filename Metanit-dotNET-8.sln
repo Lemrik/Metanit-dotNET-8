@@ -23,7 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Условные выраж
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.5 Конструкция if-else и тернарная операция", "2.5 Конструкция if-else и тернарная операция", "{5C688260-54F2-44CE-A747-2ED6906798FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Конструкция if-else и тернарная операция", "Конструкция if-else и тернарная операция\Конструкция if-else и тернарная операция.csproj", "{EC063032-07F8-4E11-81E0-03BCBF5B9A2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Конструкция if-else и тернарная операция", "Конструкция if-else и тернарная операция\Конструкция if-else и тернарная операция.csproj", "{EC063032-07F8-4E11-81E0-03BCBF5B9A2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.6 Итерационные конструкции (Циклы)", "2.6 Итерационные конструкции (Циклы)", "{477E833C-809B-455B-88E7-8310D7730896}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Цикл for", "1. Цикл for", "{B7583AAD-1ED4-45E9-BDF7-9F8B403835FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Циклы while и do-while", "3. Циклы while и do-while", "{2F88E8E6-FAC7-4084-8495-D348264071A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Цикл foreach", "2. Цикл foreach", "{D8A9AA0B-F52D-400C-951F-9CFF87CD189A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Цикл for", "Цикл for\Цикл for.csproj", "{4D0CB9E0-A383-4F21-B736-0B62BC3F91C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +61,10 @@ Global
 		{EC063032-07F8-4E11-81E0-03BCBF5B9A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC063032-07F8-4E11-81E0-03BCBF5B9A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC063032-07F8-4E11-81E0-03BCBF5B9A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0CB9E0-A383-4F21-B736-0B62BC3F91C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0CB9E0-A383-4F21-B736-0B62BC3F91C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0CB9E0-A383-4F21-B736-0B62BC3F91C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0CB9E0-A383-4F21-B736-0B62BC3F91C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +80,11 @@ Global
 		{7BF714A1-B4C5-4063-A43C-9597C4F37BAF} = {1CC995DA-99AF-43B5-B43E-D00812B0FA02}
 		{5C688260-54F2-44CE-A747-2ED6906798FC} = {76D80779-D2A8-455A-BD16-B40D1AF79862}
 		{EC063032-07F8-4E11-81E0-03BCBF5B9A2F} = {5C688260-54F2-44CE-A747-2ED6906798FC}
+		{477E833C-809B-455B-88E7-8310D7730896} = {76D80779-D2A8-455A-BD16-B40D1AF79862}
+		{B7583AAD-1ED4-45E9-BDF7-9F8B403835FD} = {477E833C-809B-455B-88E7-8310D7730896}
+		{2F88E8E6-FAC7-4084-8495-D348264071A5} = {477E833C-809B-455B-88E7-8310D7730896}
+		{D8A9AA0B-F52D-400C-951F-9CFF87CD189A} = {477E833C-809B-455B-88E7-8310D7730896}
+		{4D0CB9E0-A383-4F21-B736-0B62BC3F91C9} = {B7583AAD-1ED4-45E9-BDF7-9F8B403835FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
