@@ -57,7 +57,7 @@ while (true)
         case "стоп":       
             return; // завершает работу цикла
         default:
-            Console.WriteLine("\nЯ сказал введите язык приветсвия en, ru, fr!!!\n");
+            Console.WriteLine("\nЯ сказал введите язык приветствия en, ru, fr!!!\n");
             break;
     }
 }

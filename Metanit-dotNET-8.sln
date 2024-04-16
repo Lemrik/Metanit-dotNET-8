@@ -63,9 +63,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Задачи с масси�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.8 Методы", "2.8 Методы", "{6C6698DE-84A4-4861-9F9F-955FDDFDB1EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы база", "Методы\Методы база.csproj", "{B7E48555-44AF-4AD9-BDF6-B47949ADA701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Методы база", "Методы\Методы база.csproj", "{B7E48555-44AF-4AD9-BDF6-B47949ADA701}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Методы база", "1. Методы база", "{223E222C-590D-4DDD-8C73-E222310862F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Параметры методов", "2. Параметры методов", "{66918531-2A5C-44A7-9402-A9323FD34675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Параметры методов", "Параметры методов\Параметры методов.csproj", "{36B22DD3-D634-4344-85A1-49A7E14C550B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,10 @@ Global
 		{B7E48555-44AF-4AD9-BDF6-B47949ADA701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7E48555-44AF-4AD9-BDF6-B47949ADA701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7E48555-44AF-4AD9-BDF6-B47949ADA701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B22DD3-D634-4344-85A1-49A7E14C550B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B22DD3-D634-4344-85A1-49A7E14C550B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B22DD3-D634-4344-85A1-49A7E14C550B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B22DD3-D634-4344-85A1-49A7E14C550B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +173,8 @@ Global
 		{6C6698DE-84A4-4861-9F9F-955FDDFDB1EB} = {76D80779-D2A8-455A-BD16-B40D1AF79862}
 		{B7E48555-44AF-4AD9-BDF6-B47949ADA701} = {223E222C-590D-4DDD-8C73-E222310862F9}
 		{223E222C-590D-4DDD-8C73-E222310862F9} = {6C6698DE-84A4-4861-9F9F-955FDDFDB1EB}
+		{66918531-2A5C-44A7-9402-A9323FD34675} = {6C6698DE-84A4-4861-9F9F-955FDDFDB1EB}
+		{36B22DD3-D634-4344-85A1-49A7E14C550B} = {66918531-2A5C-44A7-9402-A9323FD34675}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
