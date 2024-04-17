@@ -61,4 +61,38 @@ PrintPerson("Tom", 24); // Name: Tom  Age: 24
 
 // Также мы можем передать параметрам значения тех типов, которые автоматически могут быть преобразованы в тип параметров.
 
-Console.WriteLine("\n");
+
+
+// Данные других типов мы передать параметров не можем.
+// Например, следующий вызов метода PrintPerson будет ошибочным:
+
+// PrintPerson(45, "Bob"); // Ошибка! несоответствие значений типам параметров
+
+Console.WriteLine("Необязательные параметры\n");
+
+// По умолчанию при вызове метода необходимо предоставить значения для всех его параметров.
+// Но C# также позволяет использовать необязательные параметры.
+// Для таких параметров нам необходимо объявить значение по умолчанию.
+// Также следует учитывать, что после необязательных параметров все последующие параметры также должны быть необязательными:
+
+void PrintPerson1(string name, int age = 1, string company = "Undefined")
+{
+    Console.WriteLine($"Name: {name}  Age: {age}  Company: {company}");
+}
+
+PrintPerson1("Tom", 37, "Microsoft");  // Name: Tom  Age: 37  Company: Microsoft
+PrintPerson1("Tom", 37);               // Name: Tom  Age: 37  Company: Undefined
+PrintPerson1("Tom");
+
+Console.WriteLine("\nИменованные параметры\n");
+
+// Можно нарушить порядок передачи параметров, используя именнованные параметры:
+
+void PrintPerson2(string name, int age = 1, string company = "Undefined")
+{
+    Console.WriteLine($"Name: {name}  Age: {age}  Company: {company}");
+}
+
+PrintPerson2("Tom", company: "Microsoft", age: 37);  // Name: Tom  Age: 37  Company: Microsoft
+PrintPerson2(age: 41, name: "Bob");          // Name: Bob  Age: 41  Company: Undefined
+PrintPerson2(company: "Google", name: "Sam"); // Name: Sam  Age: 1   Company: Google
