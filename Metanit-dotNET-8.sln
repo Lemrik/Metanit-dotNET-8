@@ -69,7 +69,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Методы база", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Параметры методов", "2. Параметры методов", "{66918531-2A5C-44A7-9402-A9323FD34675}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Параметры методов", "Параметры методов\Параметры методов.csproj", "{36B22DD3-D634-4344-85A1-49A7E14C550B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Параметры методов", "Параметры методов\Параметры методов.csproj", "{36B22DD3-D634-4344-85A1-49A7E14C550B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Возвращение значения и оператор return", "3. Возвращение значения и оператор return", "{77C0A3DF-AA58-424F-BDA4-1F9754C9610D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Возвращение значения и оператор return", "Возвращение значения и оператор return\Возвращение значения и оператор return.csproj", "{7729BFF4-C4F2-4061-B1CE-48F065D8A932}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +141,10 @@ Global
 		{36B22DD3-D634-4344-85A1-49A7E14C550B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36B22DD3-D634-4344-85A1-49A7E14C550B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36B22DD3-D634-4344-85A1-49A7E14C550B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7729BFF4-C4F2-4061-B1CE-48F065D8A932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7729BFF4-C4F2-4061-B1CE-48F065D8A932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7729BFF4-C4F2-4061-B1CE-48F065D8A932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7729BFF4-C4F2-4061-B1CE-48F065D8A932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,6 +183,8 @@ Global
 		{223E222C-590D-4DDD-8C73-E222310862F9} = {6C6698DE-84A4-4861-9F9F-955FDDFDB1EB}
 		{66918531-2A5C-44A7-9402-A9323FD34675} = {6C6698DE-84A4-4861-9F9F-955FDDFDB1EB}
 		{36B22DD3-D634-4344-85A1-49A7E14C550B} = {66918531-2A5C-44A7-9402-A9323FD34675}
+		{77C0A3DF-AA58-424F-BDA4-1F9754C9610D} = {6C6698DE-84A4-4861-9F9F-955FDDFDB1EB}
+		{7729BFF4-C4F2-4061-B1CE-48F065D8A932} = {77C0A3DF-AA58-424F-BDA4-1F9754C9610D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
