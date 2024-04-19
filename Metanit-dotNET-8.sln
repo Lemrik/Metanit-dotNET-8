@@ -73,7 +73,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Параметры мето
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Возвращение значения и оператор return", "3. Возвращение значения и оператор return", "{77C0A3DF-AA58-424F-BDA4-1F9754C9610D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Возвращение значения и оператор return", "Возвращение значения и оператор return\Возвращение значения и оператор return.csproj", "{7729BFF4-C4F2-4061-B1CE-48F065D8A932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Возвращение значения и оператор return", "Возвращение значения и оператор return\Возвращение значения и оператор return.csproj", "{7729BFF4-C4F2-4061-B1CE-48F065D8A932}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Передача параметров по ссылке и значению", "4. Передача параметров по ссылке и значению", "{A2F52B8F-9F22-4968-BFE7-5B7A3416D25B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Модификатор ref", "1. Модификатор ref", "{7B976E5F-43D5-4B8B-840C-AF13727321BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Модификатор ref", "Модификатор ref\Модификатор ref.csproj", "{CAE2353D-EBC2-40C6-BCF4-A1D442809637}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +151,10 @@ Global
 		{7729BFF4-C4F2-4061-B1CE-48F065D8A932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7729BFF4-C4F2-4061-B1CE-48F065D8A932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7729BFF4-C4F2-4061-B1CE-48F065D8A932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE2353D-EBC2-40C6-BCF4-A1D442809637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE2353D-EBC2-40C6-BCF4-A1D442809637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE2353D-EBC2-40C6-BCF4-A1D442809637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE2353D-EBC2-40C6-BCF4-A1D442809637}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -185,6 +195,9 @@ Global
 		{36B22DD3-D634-4344-85A1-49A7E14C550B} = {66918531-2A5C-44A7-9402-A9323FD34675}
 		{77C0A3DF-AA58-424F-BDA4-1F9754C9610D} = {6C6698DE-84A4-4861-9F9F-955FDDFDB1EB}
 		{7729BFF4-C4F2-4061-B1CE-48F065D8A932} = {77C0A3DF-AA58-424F-BDA4-1F9754C9610D}
+		{A2F52B8F-9F22-4968-BFE7-5B7A3416D25B} = {6C6698DE-84A4-4861-9F9F-955FDDFDB1EB}
+		{7B976E5F-43D5-4B8B-840C-AF13727321BD} = {A2F52B8F-9F22-4968-BFE7-5B7A3416D25B}
+		{CAE2353D-EBC2-40C6-BCF4-A1D442809637} = {7B976E5F-43D5-4B8B-840C-AF13727321BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
