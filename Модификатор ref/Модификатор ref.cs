@@ -37,3 +37,23 @@ Console.WriteLine($"Число после метода Increment: {number}");
 
 // Модификатор ref указывается как перед параметром при объявлении метода,
 // так и при вызове метода перед аргументом, который передается параметру
+
+
+Console.WriteLine("\nref-параметры только для чтения\n");
+// ===== ref-параметры только для чтения
+
+// Начиная с версии C# 12 можно применять ref-параметры только для чтения.
+// Такие параметры предваряются ключевым словом readonly: 
+
+void Increment_readonly(ref readonly int n)
+{
+    // n++; // нельзя, иначе будет очишка компиляции
+    Console.WriteLine($"Число в методе Increment_readonly: {n}");
+}
+
+int number_readonly = 5;
+Increment_readonly(ref number_readonly);
+Console.WriteLine($"Число после метода Increment_readonly: {number_readonly}");
+
+// По сути это тоже самое, что и модификатор in,
+// был введен скорее всего для поддержания старых проектов
