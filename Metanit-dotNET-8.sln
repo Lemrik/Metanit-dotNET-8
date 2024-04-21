@@ -91,7 +91,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Модификатор in",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Массив параметров и ключевое слово params", "4. Массив параметров и ключевое слово params", "{9B1E3BC1-0F46-449A-BF2F-79638D93E409}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Массив параметров и ключевое слово params", "Массив параметров и ключевое слово params\Массив параметров и ключевое слово params.csproj", "{A2FCD8C4-6001-4F39-A512-6A6F20785DE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Массив параметров и ключевое слово params", "Массив параметров и ключевое слово params\Массив параметров и ключевое слово params.csproj", "{A2FCD8C4-6001-4F39-A512-6A6F20785DE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.9 Рекурсивная функция факториала", "2.9 Рекурсивная функция факториала", "{7F8EFFE7-A4C5-42D6-922C-4EB76DFCD5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Рекурсивная функция факториала", "Рекурсивная функция факториала\Рекурсивная функция факториала.csproj", "{8FF7A7AD-F465-4167-9DE2-E65A833B9E7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +183,10 @@ Global
 		{A2FCD8C4-6001-4F39-A512-6A6F20785DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2FCD8C4-6001-4F39-A512-6A6F20785DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2FCD8C4-6001-4F39-A512-6A6F20785DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF7A7AD-F465-4167-9DE2-E65A833B9E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF7A7AD-F465-4167-9DE2-E65A833B9E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF7A7AD-F465-4167-9DE2-E65A833B9E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF7A7AD-F465-4167-9DE2-E65A833B9E7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -228,6 +236,8 @@ Global
 		{47780A60-E567-4752-8DCE-CC5F293C1D21} = {76567B27-505F-4D5E-A50D-1EA52D4F1A46}
 		{9B1E3BC1-0F46-449A-BF2F-79638D93E409} = {A2F52B8F-9F22-4968-BFE7-5B7A3416D25B}
 		{A2FCD8C4-6001-4F39-A512-6A6F20785DE4} = {9B1E3BC1-0F46-449A-BF2F-79638D93E409}
+		{7F8EFFE7-A4C5-42D6-922C-4EB76DFCD5B2} = {76D80779-D2A8-455A-BD16-B40D1AF79862}
+		{8FF7A7AD-F465-4167-9DE2-E65A833B9E7C} = {7F8EFFE7-A4C5-42D6-922C-4EB76DFCD5B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
