@@ -103,7 +103,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Локальные функ
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.20 Конструкция switch", "2.20 Конструкция switch", "{0524BB9D-92DD-4584-A10D-F9504D4BC436}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Конструкция switch", "Конструкция switch\Конструкция switch.csproj", "{930DE531-98D6-48C5-B7CD-C0773CD3DA6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Конструкция switch", "Конструкция switch\Конструкция switch.csproj", "{930DE531-98D6-48C5-B7CD-C0773CD3DA6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.21 Перечисления enum", "2.21 Перечисления enum", "{BD58DB34-FCC7-4B61-B8C7-F3CEB9001C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Перечисления enum", "Перечисления enum\Перечисления enum.csproj", "{BB3C9670-B8E1-447E-84D9-4C965B10C460}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -203,6 +207,10 @@ Global
 		{930DE531-98D6-48C5-B7CD-C0773CD3DA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{930DE531-98D6-48C5-B7CD-C0773CD3DA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{930DE531-98D6-48C5-B7CD-C0773CD3DA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3C9670-B8E1-447E-84D9-4C965B10C460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3C9670-B8E1-447E-84D9-4C965B10C460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3C9670-B8E1-447E-84D9-4C965B10C460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3C9670-B8E1-447E-84D9-4C965B10C460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -258,6 +266,8 @@ Global
 		{902C7C75-E23C-4EFE-9E3F-DF0B8146F2A9} = {31479CF5-6110-44AE-B9CB-132642D521E4}
 		{0524BB9D-92DD-4584-A10D-F9504D4BC436} = {76D80779-D2A8-455A-BD16-B40D1AF79862}
 		{930DE531-98D6-48C5-B7CD-C0773CD3DA6A} = {0524BB9D-92DD-4584-A10D-F9504D4BC436}
+		{BD58DB34-FCC7-4B61-B8C7-F3CEB9001C31} = {76D80779-D2A8-455A-BD16-B40D1AF79862}
+		{BB3C9670-B8E1-447E-84D9-4C965B10C460} = {BD58DB34-FCC7-4B61-B8C7-F3CEB9001C31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
