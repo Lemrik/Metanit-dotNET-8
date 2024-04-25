@@ -107,7 +107,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Конструкция swit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.21 Перечисления enum", "2.21 Перечисления enum", "{BD58DB34-FCC7-4B61-B8C7-F3CEB9001C31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Перечисления enum", "Перечисления enum\Перечисления enum.csproj", "{BB3C9670-B8E1-447E-84D9-4C965B10C460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Перечисления enum", "Перечисления enum\Перечисления enum.csproj", "{BB3C9670-B8E1-447E-84D9-4C965B10C460}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Глава 3. Классы, структуры и пространства имен", "Глава 3. Классы, структуры и пространства имен", "{E1B5F825-B328-4D0C-843E-091635084381}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.10 Классы и объекты", "3.10 Классы и объекты", "{D1E4A626-685A-4ECE-902F-9ADFA2CB59B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Классы и объекты", "Классы и объекты\Классы и объекты.csproj", "{3E22A0F8-FA57-414A-BF4A-D2D7495245A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -211,6 +217,10 @@ Global
 		{BB3C9670-B8E1-447E-84D9-4C965B10C460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB3C9670-B8E1-447E-84D9-4C965B10C460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB3C9670-B8E1-447E-84D9-4C965B10C460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E22A0F8-FA57-414A-BF4A-D2D7495245A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E22A0F8-FA57-414A-BF4A-D2D7495245A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E22A0F8-FA57-414A-BF4A-D2D7495245A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E22A0F8-FA57-414A-BF4A-D2D7495245A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -268,6 +278,8 @@ Global
 		{930DE531-98D6-48C5-B7CD-C0773CD3DA6A} = {0524BB9D-92DD-4584-A10D-F9504D4BC436}
 		{BD58DB34-FCC7-4B61-B8C7-F3CEB9001C31} = {76D80779-D2A8-455A-BD16-B40D1AF79862}
 		{BB3C9670-B8E1-447E-84D9-4C965B10C460} = {BD58DB34-FCC7-4B61-B8C7-F3CEB9001C31}
+		{D1E4A626-685A-4ECE-902F-9ADFA2CB59B9} = {E1B5F825-B328-4D0C-843E-091635084381}
+		{3E22A0F8-FA57-414A-BF4A-D2D7495245A2} = {D1E4A626-685A-4ECE-902F-9ADFA2CB59B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
