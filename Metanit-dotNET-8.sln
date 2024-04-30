@@ -147,7 +147,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Структуры", "Ст�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.15 Область видимости (контекст) переменных и констант", "3.15 Область видимости (контекст) переменных и констант", "{FC2D224D-26E9-4F88-AAC3-84EA38755E1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Область видимости (контекст) переменных и констант", "Область видимости (контекст) переменных и констант\Область видимости (контекст) переменных и констант.csproj", "{8D23A2E0-2548-479F-878C-2FDB43F96E85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Область видимости (контекст) переменных и констант", "Область видимости (контекст) переменных и констант\Область видимости (контекст) переменных и констант.csproj", "{8D23A2E0-2548-479F-878C-2FDB43F96E85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.14 Типы значений и ссылочные типы", "3.14 Типы значений и ссылочные типы", "{03A6E99E-7BFC-42BB-BB0F-67B5486FD1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Типы значений и ссылочные типы", "Типы значений и ссылочные типы\Типы значений и ссылочные типы.csproj", "{939B7F06-7E19-4CA5-B34A-68C5CA90A33D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -287,6 +291,10 @@ Global
 		{8D23A2E0-2548-479F-878C-2FDB43F96E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D23A2E0-2548-479F-878C-2FDB43F96E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D23A2E0-2548-479F-878C-2FDB43F96E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939B7F06-7E19-4CA5-B34A-68C5CA90A33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939B7F06-7E19-4CA5-B34A-68C5CA90A33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939B7F06-7E19-4CA5-B34A-68C5CA90A33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939B7F06-7E19-4CA5-B34A-68C5CA90A33D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -363,6 +371,8 @@ Global
 		{B2BF31DD-479A-4452-A21A-8A5B87266DCD} = {E69C2C82-19D8-4E5A-8C63-B59C1D0D96FB}
 		{FC2D224D-26E9-4F88-AAC3-84EA38755E1F} = {E1B5F825-B328-4D0C-843E-091635084381}
 		{8D23A2E0-2548-479F-878C-2FDB43F96E85} = {FC2D224D-26E9-4F88-AAC3-84EA38755E1F}
+		{03A6E99E-7BFC-42BB-BB0F-67B5486FD1AF} = {E1B5F825-B328-4D0C-843E-091635084381}
+		{939B7F06-7E19-4CA5-B34A-68C5CA90A33D} = {03A6E99E-7BFC-42BB-BB0F-67B5486FD1AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
