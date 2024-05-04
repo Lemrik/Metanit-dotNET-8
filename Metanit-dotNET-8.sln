@@ -163,7 +163,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Глобальные про
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.18 Подключение пространств имен по умолчанию", "3.18 Подключение пространств имен по умолчанию", "{2E6E94C8-4E9F-42EE-A14E-BD8BCE5A47D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Подключение пространств имен по умолчанию", "Подключение пространств имен по умолчанию\Подключение пространств имен по умолчанию.csproj", "{7508185E-48B1-44A3-892F-4B2B45EE23D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Подключение пространств имен по умолчанию", "Подключение пространств имен по умолчанию\Подключение пространств имен по умолчанию.csproj", "{7508185E-48B1-44A3-892F-4B2B45EE23D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.19 Библиотеки классов", "3.19 Библиотеки классов", "{8B8FA00D-724C-4151-AF5E-4C7C8F82F345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Библиотеки классов", "Библиотеки классов\Библиотеки классов.csproj", "{9B7C5543-6B1F-4C06-BBF3-5A3AD3A89323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib", "MyLib\MyLib.csproj", "{ECF99FDC-F89D-48CC-BD7B-DFBB376D2BDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -319,6 +325,14 @@ Global
 		{7508185E-48B1-44A3-892F-4B2B45EE23D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7508185E-48B1-44A3-892F-4B2B45EE23D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7508185E-48B1-44A3-892F-4B2B45EE23D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7C5543-6B1F-4C06-BBF3-5A3AD3A89323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7C5543-6B1F-4C06-BBF3-5A3AD3A89323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7C5543-6B1F-4C06-BBF3-5A3AD3A89323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7C5543-6B1F-4C06-BBF3-5A3AD3A89323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF99FDC-F89D-48CC-BD7B-DFBB376D2BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF99FDC-F89D-48CC-BD7B-DFBB376D2BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF99FDC-F89D-48CC-BD7B-DFBB376D2BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF99FDC-F89D-48CC-BD7B-DFBB376D2BDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -403,6 +417,9 @@ Global
 		{0B8A1286-6649-4FF5-9643-C3C334111D29} = {A4BCA699-757B-4861-ADD2-32EDFFB607B2}
 		{2E6E94C8-4E9F-42EE-A14E-BD8BCE5A47D3} = {E1B5F825-B328-4D0C-843E-091635084381}
 		{7508185E-48B1-44A3-892F-4B2B45EE23D9} = {2E6E94C8-4E9F-42EE-A14E-BD8BCE5A47D3}
+		{8B8FA00D-724C-4151-AF5E-4C7C8F82F345} = {E1B5F825-B328-4D0C-843E-091635084381}
+		{9B7C5543-6B1F-4C06-BBF3-5A3AD3A89323} = {8B8FA00D-724C-4151-AF5E-4C7C8F82F345}
+		{ECF99FDC-F89D-48CC-BD7B-DFBB376D2BDF} = {8B8FA00D-724C-4151-AF5E-4C7C8F82F345}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
