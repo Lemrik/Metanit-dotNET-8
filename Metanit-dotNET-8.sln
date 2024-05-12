@@ -189,7 +189,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Модификатор stat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.24 Константы, поля и структуры для чтения", "3.24 Константы, поля и структуры для чтения", "{E67C507A-D843-4072-9AF0-09F0D3BA55D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Константы, поля и структуры для чтения", "Константы, поля и структуры для чтения\Константы, поля и структуры для чтения.csproj", "{F526CFBD-269C-4A02-B4E9-5F5CC42DD45F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Константы, поля и структуры для чтения", "Константы, поля и структуры для чтения\Константы, поля и структуры для чтения.csproj", "{F526CFBD-269C-4A02-B4E9-5F5CC42DD45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null и ссылочные типы", "Null и ссылочные типы\Null и ссылочные типы.csproj", "{D3335362-9C03-4CEE-B90C-36A7E39F851E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.25 Null и ссылочные типы", "3.25 Null и ссылочные типы", "{EA0B6C8F-6406-4A53-AD35-4E11D12A690D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -373,6 +377,10 @@ Global
 		{F526CFBD-269C-4A02-B4E9-5F5CC42DD45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F526CFBD-269C-4A02-B4E9-5F5CC42DD45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F526CFBD-269C-4A02-B4E9-5F5CC42DD45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3335362-9C03-4CEE-B90C-36A7E39F851E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3335362-9C03-4CEE-B90C-36A7E39F851E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3335362-9C03-4CEE-B90C-36A7E39F851E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3335362-9C03-4CEE-B90C-36A7E39F851E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -470,6 +478,8 @@ Global
 		{4DB697E6-3E14-494F-895E-996405007482} = {04E55F84-9003-4699-856E-EE5AA24AD84C}
 		{E67C507A-D843-4072-9AF0-09F0D3BA55D6} = {E1B5F825-B328-4D0C-843E-091635084381}
 		{F526CFBD-269C-4A02-B4E9-5F5CC42DD45F} = {E67C507A-D843-4072-9AF0-09F0D3BA55D6}
+		{D3335362-9C03-4CEE-B90C-36A7E39F851E} = {EA0B6C8F-6406-4A53-AD35-4E11D12A690D}
+		{EA0B6C8F-6406-4A53-AD35-4E11D12A690D} = {E1B5F825-B328-4D0C-843E-091635084381}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
