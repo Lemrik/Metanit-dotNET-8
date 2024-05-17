@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Наследование
 {
-    internal class Employee
+    internal class Employee : Person
     {
     }
 }

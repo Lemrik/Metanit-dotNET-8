@@ -205,7 +205,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Проверка на null"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.28 Псевдонимы типов и статический импорт", "3.28 Псевдонимы типов и статический импорт", "{55C1AA71-6636-40EA-ABD4-357D50B06193}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Псевдонимы типов и статический импорт", "Псевдонимы типов и статический импорт\Псевдонимы типов и статический импорт.csproj", "{7AF2CC95-62BA-4AB7-90CB-C7B39AAB57E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Псевдонимы типов и статический импорт", "Псевдонимы типов и статический импорт\Псевдонимы типов и статический импорт.csproj", "{7AF2CC95-62BA-4AB7-90CB-C7B39AAB57E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Глава 4. Объектно-ориентированное программирование", "Глава 4. Объектно-ориентированное программирование", "{28F3C052-A19E-41EA-ABB1-136662C97CD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.10 Наследование", "2.10 Наследование", "{A79B8C3C-5410-4F59-9A12-C2408E428204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Наследование", "Наследование\Наследование.csproj", "{05A5AE33-008C-4196-89CA-DD20C259511C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -405,6 +411,10 @@ Global
 		{7AF2CC95-62BA-4AB7-90CB-C7B39AAB57E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AF2CC95-62BA-4AB7-90CB-C7B39AAB57E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AF2CC95-62BA-4AB7-90CB-C7B39AAB57E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A5AE33-008C-4196-89CA-DD20C259511C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A5AE33-008C-4196-89CA-DD20C259511C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A5AE33-008C-4196-89CA-DD20C259511C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A5AE33-008C-4196-89CA-DD20C259511C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -510,6 +520,8 @@ Global
 		{BBD4771D-773F-498D-AA07-6B52EB8E9EB1} = {02DFD19F-7E02-4A03-8580-7249C968BB0E}
 		{55C1AA71-6636-40EA-ABD4-357D50B06193} = {E1B5F825-B328-4D0C-843E-091635084381}
 		{7AF2CC95-62BA-4AB7-90CB-C7B39AAB57E2} = {55C1AA71-6636-40EA-ABD4-357D50B06193}
+		{A79B8C3C-5410-4F59-9A12-C2408E428204} = {28F3C052-A19E-41EA-ABB1-136662C97CD8}
+		{05A5AE33-008C-4196-89CA-DD20C259511C} = {A79B8C3C-5410-4F59-9A12-C2408E428204}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15C48AB3-68D9-4876-A213-89948D01CF8B}
