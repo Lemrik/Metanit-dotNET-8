@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace Наследование
 {
-    internal class Employee : Person
+    internal class Person2
     {
-        public void PrintName()
+        public string Name { get; set; }
+        public Person2(string name)
+        {
+            Name = name;
+        }
+        public void Print()
         {
             Console.WriteLine(Name);
         }
